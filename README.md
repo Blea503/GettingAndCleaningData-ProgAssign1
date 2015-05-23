@@ -1,6 +1,6 @@
 # GettingAndCleaningData-ProgAssign1
 Given the UCI HAR Dataset, create a tidy data set that calculates the means for the mean and std dev for each subject and activity.
-This tidy dataset is used for later analysis.
+This tidy dataset is used for later analysis that can be read into R with read.table(header=TRUE).
 
 ## Objective Steps
 There is a run_analysis.R script that prepares the data in the following manner:
@@ -31,7 +31,7 @@ There is one config option available.
  5. Select only the features that are means or standard deviations. The Angle() calls, even though they specify a mean as an argument are not means. Also, the meanFreq() features represent frequency of means and not necessarily mean data points and should be excluded.
  6. For each unique combination of subject and activity, summarize the data by calculating the mean of the values
  7. Rename columns to indicate this is the mean of the column and not the actual value.
- 8. Finally, write the data to a file using write.table(), for later use.
+ 8. Finally, write the data to a file using write.table(), for later analysis that can be read into R with read.table(header=TRUE).
 
 ## Steps
  1. Prepare directory with data sets and code, if the data does not already exist.
