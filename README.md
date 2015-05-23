@@ -2,13 +2,16 @@
 Given the UCI HAR Dataset, create a tidy data set that calculates the means for the mean and std dev for each subject and activity.
 This tidy dataset is used for later analysis.
 
-## Steps
+## Objective Steps
 There is a run_analysis.R script that prepares the data in the following manner:
  1. Merges the training and the test sets to create one data set.
  2. Extracts only the measurements on the mean and standard deviation for each measurement. 
  3. Uses descriptive activity names to name the activities in the data set
  4. Appropriately labels the data set with descriptive variable names. 
  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## Inputs
+ * Download and extract the files from the zip file [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip].
 
 ## Outputs
 The following artifacts exist:
@@ -29,3 +32,9 @@ There is one config option available.
  6. For each unique combination of subject and activity, summarize the data by calculating the mean of the values
  7. Rename columns to indicate this is the mean of the column and not the actual value.
  8. Finally, write the data to a file using write.table(), for later use.
+
+## Steps
+ 1. Prepare directory with data sets and code.
+ 2. Optionally, set the sample.rows configuration value to a small number (such as 10) for development purposes.
+ 3. Execute run_analysis.R in the correct working directory.
+ 4. Output is the har_data_means.txt. This may take a few seconds to run.
