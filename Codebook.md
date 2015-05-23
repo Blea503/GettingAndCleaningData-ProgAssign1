@@ -38,7 +38,7 @@ The tidy datafile, which is a composition of the test and train data, with facto
  7. Rename columns to indicate this is the mean of the column and not the actual value.
  8. Finally, write the data to a file using write.table(), for later use.
 
-##Description of the variables in the tiny_data.txt file
+##Description of the variables in the har_data_means.txt file
  * The har_data_means.txt file contains 40 observations of 68 variables.
  * For each unique combination of subject and activity, the data is summarized by calculating the mean of each of the values
  The values are normalized and bounded within [-1,1].
