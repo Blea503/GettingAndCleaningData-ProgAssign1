@@ -86,7 +86,7 @@ har.data <- move_to_start(har.data, c('subject', 'activity'))
 # meanFreq() is not a mean, it is the frequency of the mean in the data and should be excluded from the features.group_by(dataset, subject, activity) %>% summarise_each(funs(mean))
 har.mean.and.std.data <- har.data[, grep('^subject$|^activity$|(^(time|freq)\\..+\\.(mean|std)(?!\\.freq))', names(har.data), perl=TRUE)]
 
-# for each unique combination of subject and activity, summarize the data by apply the mean to the value (step 5)
+# for each unique combination of subject and activity, summarize the data by calculating the mean of the value (step 5)
 har.mean.and.std.data.means <- group_by(har.mean.and.std.data, subject, activity) %>% summarise_each(funs(mean))
 
 # reset column names to represent mean of each feature

@@ -15,3 +15,17 @@ The following artifacts exist:
  * README.md - this file
  * har_data_means.txt - final tidy dataset in write.table() format
  * run_analysis.R - R code to prepare the data set
+
+## Configuration
+There is one config option available.
+ * sample.rows - set to 10 while developing to have speedy execution; set to -1 to read entire datasets
+
+## Approach
+ 1. Convert the features to convential column names, removing special characters or replace with a period, and make time and frequency variables more obvious. Also separate camelCase variables to period-separated.
+ 2. Proper case activity labels for later use.
+ 3. Read in the testing and training data, combining the rows into one data set.
+ 4. Add the subject and activity factors as the beginning columns of the data set.
+ 5. Select only the features that are means or standard deviations. The Angle() calls, even though they specify a mean as an argument are not means. Also, the meanFreq() features represent frequency of means and not necessarily mean data points and should be excluded.
+ 6. For each unique combination of subject and activity, summarize the data by calculating the mean of the values
+ 7. Rename columns to indicate this is the mean of the column and not the actual value.
+ 8. Finally, write the data to a file using write.table(), for later use.
