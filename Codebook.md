@@ -20,7 +20,7 @@ Data is derived from the UCI HAR study and is available at https://d396qusza40or
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 ##Creating the tidy datafile
-The tidy datafile, which is a composition of the test and train data, with factors for subjects and activities, has measures that represent the mean of the means and standard deviations in the original data set.
+The tidy datafile, which is a composition of the test and train data, with factors for subjects and activities, has measures that represent the mean of the means and standard deviations in the original data set grouped by subject and activity.
 
 ###Guide to create the tidy data file
  1. Prepare directory with data sets and code, if the data does not already exist. This data is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
@@ -40,8 +40,7 @@ The tidy datafile, which is a composition of the test and train data, with facto
 
 ##Description of the variables in the har_data_means.txt file
  * The har_data_means.txt file contains 40 observations of 68 variables.
- * For each unique combination of subject and activity, the data is summarized by calculating the mean of each of the values
- The values are normalized and bounded within [-1,1].
+ * For each unique combination of subject and activity, the data is summarized by calculating the mean of each of the values grouped by subject and activity.  The values are normalized and bounded within [-1, 1].
  * Abbreviations:
   - acc: acceleration
   - std: standard deviation
@@ -132,265 +131,265 @@ The tidy datafile, which is a composition of the test and train data, with facto
    - Laying
 
 ### Variable: mean.of.time.body.acc.mean.x             
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.mean.y             
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.mean.z             
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.std.x              
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.std.y              
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.std.z              
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.gravity.acc.mean.x          
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.gravity.acc.mean.y          
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.gravity.acc.mean.z          
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.gravity.acc.std.x           
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.gravity.acc.std.y           
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.gravity.acc.std.z           
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.jerk.mean.x        
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.jerk.mean.y        
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.jerk.mean.z        
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.jerk.std.x         
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.jerk.std.y         
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.jerk.std.z         
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.mean.x            
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.mean.y            
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.mean.z            
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.std.x             
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.std.y             
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.std.z             
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.jerk.mean.x       
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.jerk.mean.y       
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.jerk.mean.z       
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.jerk.std.x        
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.jerk.std.y        
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.jerk.std.z        
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.mag.mean           
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.mag.std            
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.gravity.acc.mag.mean        
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.gravity.acc.mag.std         
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.jerk.mag.mean      
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.acc.jerk.mag.std       
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.mag.mean          
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.mag.std           
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.jerk.mag.mean     
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.time.body.gyro.jerk.mag.std      
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of time-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.mean.x             
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.mean.y             
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.mean.z             
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.std.x              
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.std.y              
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.std.z              
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.jerk.mean.x        
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.jerk.mean.y        
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.jerk.mean.z        
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.jerk.std.x         
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.jerk.std.y         
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.jerk.std.z         
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.gyro.mean.x            
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.gyro.mean.y            
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.gyro.mean.z            
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.gyro.std.x             
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.gyro.std.y             
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.gyro.std.z             
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.mag.mean           
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.acc.mag.std            
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.body.acc.jerk.mag.mean 
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.body.acc.jerk.mag.std  
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.body.gyro.mag.mean     
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.body.gyro.mag.std      
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.body.gyro.jerk.mag.mean
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related mean values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
 
 ### Variable: mean.of.freq.body.body.gyro.jerk.mag.std 
- - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follows the variable name
+ - Mean of frequency-related standard deviation values per subject per activity. Values are normalized and bounded within [-1,1]
+ - Description of the variable can be derived from the naming convention of the variable
