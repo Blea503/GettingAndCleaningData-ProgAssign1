@@ -115,6 +115,7 @@ The tidy datafile, which is a composition of the test and train data, with facto
 ### Variable: subject                                  
  - Factor with 30 levels: 1..30
  - Each Factor represents an individual subject
+
 ### Variable: activity                                 
  - Factor with 6 levels:
    - Walking
@@ -122,9 +123,11 @@ The tidy datafile, which is a composition of the test and train data, with facto
    - Walking_Downstairs
    - Sitting
    - Standing
+
 ### Variable: mean.of.time.body.acc.mean.x             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
  - Description follow the variable name
+
 ### Variable: mean.of.time.body.acc.mean.y             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
  - Description follow the variable name
@@ -320,9 +323,3 @@ The tidy datafile, which is a composition of the test and train data, with facto
 ### Variable: mean.of.freq.body.body.gyro.jerk.mag.std 
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
  - Description follow the variable name
-
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
