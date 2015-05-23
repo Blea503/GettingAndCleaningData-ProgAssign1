@@ -123,6 +123,7 @@ The tidy datafile, which is a composition of the test and train data, with facto
    - Walking_Downstairs
    - Sitting
    - Standing
+   - Laying
 
 ### Variable: mean.of.time.body.acc.mean.x             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
