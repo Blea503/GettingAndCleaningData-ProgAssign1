@@ -11,7 +11,7 @@ There is a run_analysis.R script that prepares the data in the following manner:
  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Inputs
- * Download and extract the files from the zip file [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip].
+ * Download and extract the files from the zip file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
 ## Outputs
 The following artifacts exist:
