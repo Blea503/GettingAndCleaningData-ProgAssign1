@@ -38,3 +38,16 @@ There is one config option available.
  2. Optionally, set the sample.rows configuration value to a small number (such as 10) for development purposes. Set to -1 for production/file submission.
  3. Execute run_analysis.R in the correct working directory.
  4. Output is the har_data_means.txt. This may take a few seconds to run.
+
+## R Code Sample to Read Data for Analysis
+<pre><code>
+# Download the HAR tidy dataset from the cloud
+address <- "https://s3.amazonaws.com/coursera-uploads/user-bfb42fc0f86689092d683e04/973501/asst-3/827a712000f811e5936a3550e556205e.txt"
+address <- sub("^https", "http", address)
+
+# Read the dataset into a data frame variable (data)
+data <- read.table(url(address), header = TRUE)
+
+# Perform analysis on the data
+perform_analysis(data)
+</code></pre>
