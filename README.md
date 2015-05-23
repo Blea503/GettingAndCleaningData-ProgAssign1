@@ -34,7 +34,7 @@ There is one config option available.
  8. Finally, write the data to a file using write.table(), for later use.
 
 ## Steps
- 1. Prepare directory with data sets and code.
+ 1. Prepare directory with data sets and code, if the data does not already exist.
  2. Optionally, set the sample.rows configuration value to a small number (such as 10) for development purposes.
  3. Execute run_analysis.R in the correct working directory.
  4. Output is the har_data_means.txt. This may take a few seconds to run.
