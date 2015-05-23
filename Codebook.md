@@ -42,6 +42,12 @@ The tidy datafile, which is a composition of the test and train data, with facto
  * The har_data_means.txt file contains 40 observations of 68 variables.
  * For each unique combination of subject and activity, the data is summarized by calculating the mean of each of the values
  The values are normalized and bounded within [-1,1].
+ * Abbreviations:
+  - acc: acceleration
+  - std: standard deviation
+  - gyro: gyroscope
+  - freq: frequency
+  - x / y / z: measurement along specified axis
  * The following variables are present in the dataset:
    - subject                                  
    - activity                                 
