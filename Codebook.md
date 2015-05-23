@@ -126,264 +126,264 @@ The tidy datafile, which is a composition of the test and train data, with facto
 
 ### Variable: mean.of.time.body.acc.mean.x             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.mean.y             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.mean.z             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.std.x              
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.std.y              
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.std.z              
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.gravity.acc.mean.x          
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.gravity.acc.mean.y          
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.gravity.acc.mean.z          
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.gravity.acc.std.x           
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.gravity.acc.std.y           
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.gravity.acc.std.z           
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.jerk.mean.x        
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.jerk.mean.y        
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.jerk.mean.z        
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.jerk.std.x         
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.jerk.std.y         
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.jerk.std.z         
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.mean.x            
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.mean.y            
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.mean.z            
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.std.x             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.std.y             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.std.z             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.jerk.mean.x       
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.jerk.mean.y       
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.jerk.mean.z       
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.jerk.std.x        
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.jerk.std.y        
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.jerk.std.z        
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.mag.mean           
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.mag.std            
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.gravity.acc.mag.mean        
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.gravity.acc.mag.std         
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.jerk.mag.mean      
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.acc.jerk.mag.std       
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.mag.mean          
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.mag.std           
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.jerk.mag.mean     
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.time.body.gyro.jerk.mag.std      
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.mean.x             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.mean.y             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.mean.z             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.std.x              
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.std.y              
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.std.z              
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.jerk.mean.x        
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.jerk.mean.y        
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.jerk.mean.z        
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.jerk.std.x         
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.jerk.std.y         
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.jerk.std.z         
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.gyro.mean.x            
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.gyro.mean.y            
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.gyro.mean.z            
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.gyro.std.x             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.gyro.std.y             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.gyro.std.z             
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.mag.mean           
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.acc.mag.std            
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.body.acc.jerk.mag.mean 
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.body.acc.jerk.mag.std  
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.body.gyro.mag.mean     
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.body.gyro.mag.std      
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.body.gyro.jerk.mag.mean
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
 
 ### Variable: mean.of.freq.body.body.gyro.jerk.mag.std 
  - Mean of values for each subject for each activity. Values are normalized and bounded within [-1,1]
- - Description follow the variable name
+ - Description follows the variable name
