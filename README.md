@@ -35,6 +35,6 @@ There is one config option available.
 
 ## Steps
  1. Prepare directory with data sets and code, if the data does not already exist.
- 2. Optionally, set the sample.rows configuration value to a small number (such as 10) for development purposes.
+ 2. Optionally, set the sample.rows configuration value to a small number (such as 10) for development purposes. Set to -1 for production/file submission.
  3. Execute run_analysis.R in the correct working directory.
  4. Output is the har_data_means.txt. This may take a few seconds to run.
