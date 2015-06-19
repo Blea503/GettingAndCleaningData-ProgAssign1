@@ -1,5 +1,5 @@
 # File:   run_analysis.R
-# Date:   2015-05-22
+# Date:   2015-06-19
 # Author: Rick Wargo
 #
 # Description
@@ -11,7 +11,7 @@
 #    for each activity and each subject.
 #
 # Modification History
-# RCW  2015-05-22  New today
+# RCW  2015-06-19  New today
 
 library(dplyr)
 
@@ -48,7 +48,8 @@ activity.labels <- lapply(activity.labels, function(v) {
                         else 
                           return(v) 
                         })
-  
+activity.labels <- data.frame(activity.labels)
+
 # read in training and testing data features
 train.data <- read.table('UCI HAR Dataset/train/X_train.txt', header=FALSE, nrows=sample.rows)
 test.data <- read.table('UCI HAR Dataset/test/X_test.txt', header=FALSE, nrows=sample.rows)
@@ -62,10 +63,11 @@ train.subject.data <- read.table('UCI HAR Dataset/train/subject_train.txt', head
 train.activity.data <- read.table('UCI HAR Dataset/train/y_train.txt', header=FALSE, nrows=sample.rows)
 
 # prepend the subject and activity to the test and train data sets
+# beware of merge - the order is not kept so results are incorrect. need to use dplyr's inner_join instead (preserves order)
 test.data$subject <- test.subject.data$V1
-test.data$activity <- as.factor(merge(activity.labels, test.activity.data)$V2)
+test.data$activity <- as.factor(inner_join(test.activity.data, activity.labels, by='V1')$V2)
 train.data$subject <- train.subject.data$V1
-train.data$activity <- as.factor(merge(activity.labels, train.activity.data)$V2)
+train.data$activity <- as.factor(inner_join(train.activity.data, activity.labels, by='V1')$V2)
 
 # merge the train and test data sets, including subject and activity
 har.data = rbind(train.data, test.data)
@@ -87,7 +89,7 @@ har.data <- move_to_start(har.data, c('subject', 'activity'))
 har.mean.and.std.data <- har.data[, grep('^subject$|^activity$|(^(time|freq)\\..+\\.(mean|std)(?!\\.freq))', names(har.data), perl=TRUE)]
 
 # for each unique combination of subject and activity, summarize the data by calculating the mean of the value (step 5)
-har.mean.and.std.data.means <- group_by(har.mean.and.std.data, subject, activity) %>% summarise_each(funs(mean))
+har.mean.and.std.data.means <- har.mean.and.std.data %>% group_by(subject, activity) %>% summarise_each(funs(mean))
 
 # reset column names to represent mean of each feature
 names(har.mean.and.std.data.means) <- gsub('^(time|freq)\\.', 'mean.of.\\1\\.', names(har.mean.and.std.data.means))
